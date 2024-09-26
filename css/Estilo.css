@@ -1,0 +1,68 @@
+/* comun*/
+body {}
+
+header h1 {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+button {
+  width: 120px;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 18px;
+  border-style: none;
+}
+
+button:hover {
+  width: 120px;
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* principal*/
+.Pcont {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: column;
+}
+
+.Psubcont {
+  height: 200px;
+
+  margin-top: 20px;
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* animacion*/
+.acont {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+  border: 3px solid;
+}
+
+.asubcont {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid;
+}
+
+/* modelado*/
+
+/* videojuegos*/
+
+/* contacto*/
