@@ -1,11 +1,11 @@
 
 // volver
-/*
+
 const btnvolver = document.getElementById("volver")
 btnvolver.addEventListener("click", () => {
-  console.log("hola");
+  window.location.href = "../index.html"
 })
-*/
+
 // Principal botones
 // variables
 const btnA = document.getElementById("btnA");
