@@ -20,23 +20,23 @@ const infoC = document.getElementById("Ccont");
 //clicks
 btnA.addEventListener("click", () => {
   console.log("animacion");
-  window.location.href = "animacion.html";
+  window.location.href = "html/animacion.html";
 
 })
 
 btnM.addEventListener("click", () => {
   console.log("modelado");
-  window.location.href = "modelado.html";
+  window.location.href = "html/modelado.html";
 })
 
 btnV.addEventListener("click", () => {
   console.log("videojuegos");
-  window.location.href = "videojuegos.html";
+  window.location.href = "html/videojuegos.html";
 })
 
 btnC.addEventListener("click", () => {
   console.log("contacto");
-  window.location.href = "contacto.html";
+  window.location.href = "html/contacto.html";
 })
 //hover
 btnA.addEventListener("mouseover", () => {
