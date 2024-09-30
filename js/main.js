@@ -1,10 +1,4 @@
 
-// volver
-
-const btnvolver = document.getElementById("volver")
-btnvolver.addEventListener("click", () => {
-  window.location.href = "../index.html"
-})
 
 // Principal botones
 // variables
@@ -19,8 +13,10 @@ const infoC = document.getElementById("Ccont");
 
 //clicks
 btnA.addEventListener("click", () => {
+
   console.log("animacion");
-  window.location.href = "html/animacion.html";
+  return window.location.href = "html/animacion.html";
+
 
 })
 
@@ -79,3 +75,10 @@ btnC.addEventListener("mouseout", () => {
 })
 // boton  que te lleve a otra pagina
 
+// volver
+
+const btnvolver = document.getElementById("volver")
+btnvolver.addEventListener("click", () => {
+  return window.location.href = "/index.html";
+  console.log("volver");
+})
