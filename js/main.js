@@ -34,11 +34,12 @@ btnC.addEventListener("click", () => {
   console.log("contacto");
   window.location.href = "html/contacto.html";
 })
+/*
 //hover
 btnA.addEventListener("mouseover", () => {
   setTimeout(() => {
     infoA.innerHTML = ` <p id="Acont">
-          Videos 
+          Videos
         </p>`
   }, 750);
 
@@ -84,6 +85,6 @@ btnC.addEventListener("mouseover", () => {
 
 btnC.addEventListener("mouseout", () => {
   infoC.innerHTML = ` `
-})
+})*/
 // boton  que te lleve a otra pagina
 

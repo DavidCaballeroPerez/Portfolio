@@ -13,18 +13,19 @@ footer {
 }
 
 button {
-  width: 120px;
-  height: 50px;
+  width: 150px;
+  height: 40px;
   border-radius: 25px;
-  font-size: 18px;
+  font-size: 20px;
   border-style: none;
   background-color: #00000000;
-  transition: width 2s, height 2s, background-color 1.5s, color 1.5s;
+  transition: width 1s, background-color 1s, color 1s;
+  text-align: center;
+
 }
 
 button:hover {
-  width: 150px;
-  height: 150px;
+  width: 250px;
   background-color: #000;
   color: #ffffff;
   cursor: pointer;
@@ -34,18 +35,18 @@ button:hover {
 .Pcont {
   height: 100vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-flow: column;
 }
 
 .Psubcont {
   height: 200px;
-
   margin-top: 5px;
   width: 75%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .Pimg {
@@ -87,6 +88,12 @@ button:hover {
 .mimg {
   width: 350px;
   margin: 10px;
+  transition: width 1.5s, height 1.5s;
+}
+
+.mimg:hover {
+  width: 35%;
+
 }
 
 /* videojuegos*/
@@ -106,9 +113,11 @@ button:hover {
 
 /* contacto*/
 .ccont {
+  height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: wrap;
 }
 
 .csubcont {
