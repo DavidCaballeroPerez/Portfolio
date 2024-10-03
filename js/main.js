@@ -36,9 +36,12 @@ btnC.addEventListener("click", () => {
 })
 //hover
 btnA.addEventListener("mouseover", () => {
-  infoA.innerHTML = ` <p id="Acont">
-          Videos de animacion
+  setTimeout(() => {
+    infoA.innerHTML = ` <p id="Acont">
+          Videos 
         </p>`
+  }, 750);
+
 
 })
 btnA.addEventListener("mouseout", () => {
@@ -46,18 +49,24 @@ btnA.addEventListener("mouseout", () => {
 })
 
 btnM.addEventListener("mouseover", () => {
-  infoM.innerHTML = ` <p id="Mcont">
-          Modelados 3d
+  setTimeout(() => {
+    infoM.innerHTML = ` <p id="Mcont">
+         Renders 3d
         </p>`
+  }, 750);
+
 
 })
 btnM.addEventListener("mouseout", () => {
   infoM.innerHTML = ` `
 })
 btnV.addEventListener("mouseover", () => {
-  infoV.innerHTML = ` <p id="Vcont">
-          Trailers  y enlaces
+  setTimeout(() => {
+    infoV.innerHTML = ` <p id="Vcont">
+          Trailers
         </p>`
+  }, 750);
+
 
 })
 btnV.addEventListener("mouseout", () => {
@@ -65,9 +74,12 @@ btnV.addEventListener("mouseout", () => {
 })
 
 btnC.addEventListener("mouseover", () => {
-  infoC.innerHTML = ` <p id="Ccont">
-          Contacto
+  setTimeout(() => {
+    infoC.innerHTML = ` <p id="Ccont">
+          enlaces
         </p>`
+  }, 750);
+
 })
 
 btnC.addEventListener("mouseout", () => {
