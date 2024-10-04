@@ -58,6 +58,7 @@ button:hover {
 
 /* animacion*/
 .acont {
+  height: 100vh;
   display: flex;
   justify-content: space-around;
   flex-flow: wrap;
@@ -73,6 +74,7 @@ button:hover {
 
 /* modelado*/
 .mcont {
+  height: 100vh;
   display: flex;
   justify-content: space-around;
   flex-flow: wrap;
@@ -98,6 +100,7 @@ button:hover {
 
 /* videojuegos*/
 .vcont {
+  height: 100vh;
   display: flex;
   justify-content: space-around;
   flex-flow: wrap;
@@ -152,6 +155,10 @@ button:hover {
 
 .linkedin {
   background-color: #0077B5;
+}
+
+.correo {
+  background-color: #b85900;
 }
 
 /* fondo */
