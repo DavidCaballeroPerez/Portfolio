@@ -33,7 +33,7 @@ button:hover {
 
 /* principal*/
 .Pcont {
-  height: 100vh;
+  height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,7 +58,7 @@ button:hover {
 
 /* animacion*/
 .acont {
-  height: 100vh;
+  height: 75vh;
   display: flex;
   justify-content: space-around;
   flex-flow: wrap;
@@ -74,7 +74,7 @@ button:hover {
 
 /* modelado*/
 .mcont {
-  height: 100vh;
+  height: 75vh;
   display: flex;
   justify-content: space-around;
   flex-flow: wrap;
@@ -100,7 +100,7 @@ button:hover {
 
 /* videojuegos*/
 .vcont {
-  height: 100vh;
+  height: 75vh;
   display: flex;
   justify-content: space-around;
   flex-flow: wrap;
