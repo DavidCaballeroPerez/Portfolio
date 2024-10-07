@@ -9,5 +9,6 @@ js:
 - he utilizado 2 archivos de js para evitar problemas con los botones ya que en las paginas hay un boton para volver al menu principal pero en el menu principal no haia dicho menu, para solucionarlo he creado otro archivo de js para que funcionara en las paginas secundarias.
 
 Desde el index, eliges una opcion y esta te lleva a otra pagina con la informacion pertinente.
+Funciona todo incluso el boton de enviar correo.
 
 -David caballero Perez
